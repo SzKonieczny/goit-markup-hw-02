@@ -1,3 +1,15 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+.page-filters button {
+  font-family: "Roboto";
+  font-style: normal;
+  color: #212121
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  line-height: 1.6;
+}
+
+.top-bar {
+}
