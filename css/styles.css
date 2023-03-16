@@ -27,7 +27,7 @@ body {
   border-radius: 4px;
 }
 
-.link {
+.logo {
   font-family: "Raleway";
   font-style: normal;
   font-size: 26px;
@@ -42,4 +42,30 @@ body {
 .web {
   text-decoration: none;
   color: #2196f3;
+}
+
+.navigation-menu a {
+  font-style: normal;
+  font-weight: 500;
+  color: var(--brand-color-headlines-font);
+  line-height: 1.2;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navigation-menu a:hover {
+  color: var(--brand-color-active);
+}
+
+.top-bar-contact a {
+}
+
+.top-bar-email-phone {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--brand-color-description-font);
+  line-height: 1.2;
+  text-decoration: none;
+  cursor: pointer;
 }
