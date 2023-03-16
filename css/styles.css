@@ -14,7 +14,7 @@ body {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.heder-bg {
+.main-headline-bg {
   background-color: var(--brand-color-heder-footer);
   width: 1600px;
   height: 600px;
@@ -30,11 +30,6 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-}
-
-.menu {
-  width: 1600px;
-  height: 80px;
 }
 
 .navigation-menu a {
