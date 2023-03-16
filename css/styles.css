@@ -1,14 +1,33 @@
-:root {
-  --brand-color-heder-footer: #2f303a;
-  --brand-color-headlines-font: #212121;
-  --brand-color-description-font: #757575;
-  --brand-color-img-background: #ffffff;
-  --brand-color-active: #2196f3;
-}
-
 body {
   font-family: "Roboto", sans-serif;
 }
+
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #000000;
+  cursor: default;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navigation-menu a {
+  font-style: normal;
+  font-weight: 500;
+  color: var(--brand-color-headlines-font);
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navigation-menu a:hover {
+  color: var(--brand-color-active);
+}
+
 .page-filters button {
   font-family: "Roboto";
   font-style: normal;
@@ -27,38 +46,12 @@ body {
   border-radius: 4px;
 }
 
-.logo {
-  font-family: "Raleway";
-  font-style: normal;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  color: #000000;
-  cursor: default;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.web {
-  text-decoration: none;
-  color: #2196f3;
-}
-
-.navigation-menu a {
-  font-style: normal;
-  font-weight: 500;
-  color: var(--brand-color-headlines-font);
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.navigation-menu a:hover {
-  color: var(--brand-color-active);
-}
-
-.top-bar-contact a {
+:root {
+  --brand-color-heder-footer: #2f303a;
+  --brand-color-headlines-font: #212121;
+  --brand-color-description-font: #757575;
+  --brand-color-img-background: #ffffff;
+  --brand-color-active: #2196f3;
 }
 
 .top-bar-email-phone {
@@ -74,4 +67,9 @@ body {
 
 .top-bar-email-phone:hover {
   color: var(--brand-color-active);
+}
+
+.web {
+  text-decoration: none;
+  color: #2196f3;
 }
