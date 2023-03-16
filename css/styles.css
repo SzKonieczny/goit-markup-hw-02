@@ -1,5 +1,16 @@
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+}
+
+.headline-h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 .logo {
@@ -10,26 +21,11 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #000000;
-  cursor: default;
+  cursor: pointer;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.main-headline-bg {
-  background-color: var(--brand-color-heder-footer);
-  width: 1600px;
-  height: 600px;
-  margin-left: 0px;
-  margin-top: 80px;
-}
-
-.main-headline {
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.4;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #ffffff;
+.main-headline button {
 }
 
 .navigation-menu a {
@@ -44,6 +40,26 @@ body {
 
 .navigation-menu a:hover {
   color: var(--brand-color-active);
+}
+
+.order-button {
+  width: 200px;
+  height: 50px;
+  background-color: #2196f3;
+  border: #2196f3;
+  cursor: pointer;
+}
+
+.order-service {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  color: #ffffff;
+}
+
+.order-service:hover {
+  color: #000000;
 }
 
 .page-filters button {
@@ -72,7 +88,10 @@ body {
   --brand-color-active: #2196f3;
 }
 
-.top-bar-email-phone {
+.top-bar-studio {
+}
+
+.top-bar-email {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -83,7 +102,22 @@ body {
   cursor: pointer;
 }
 
-.top-bar-email-phone:hover {
+.top-bar-email:hover {
+  color: var(--brand-color-active);
+}
+
+.top-bar-phone {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--brand-color-description-font);
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.top-bar-phone:hover {
   color: var(--brand-color-active);
 }
 
