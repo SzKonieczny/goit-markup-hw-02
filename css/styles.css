@@ -62,6 +62,24 @@ body {
   color: #000000;
 }
 
+.our-advantages h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--brand-color-headlines-font);
+}
+.our-advantages p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--brand-color-description-font);
+}
+
 .page-filters button {
   font-family: "Roboto";
   font-style: normal;
@@ -86,6 +104,10 @@ body {
   --brand-color-description-font: #757575;
   --brand-color-img-background: #ffffff;
   --brand-color-active: #2196f3;
+}
+
+.main-section-one {
+  background-color: var(--brand-color-heder-footer);
 }
 
 .top-bar-studio {
