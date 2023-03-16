@@ -75,6 +75,11 @@ body {
   text-transform: uppercase;
   color: var(--brand-color-headlines-font);
 }
+
+.our-advantages > li {
+  list-style: none;
+}
+
 .our-advantages p {
   font-style: normal;
   font-weight: 400;
@@ -128,6 +133,7 @@ body {
   background-color: var(--brand-color-img-background);
   width: 270px;
   height: 368px;
+  list-style: none;
 }
 
 .team-card h5 {
@@ -190,6 +196,10 @@ body {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--brand-color-headlines-font);
+}
+
+.what-we-do-list {
+  list-style: none;
 }
 
 .web {
