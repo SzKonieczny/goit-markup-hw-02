@@ -28,6 +28,10 @@ body {
 .main-headline button {
 }
 
+.main-section-one {
+  background-color: var(--brand-color-heder-footer);
+}
+
 .navigation-menu a {
   font-style: normal;
   font-weight: 500;
@@ -80,6 +84,19 @@ body {
   color: var(--brand-color-description-font);
 }
 
+.our-team {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  color: var(--brand-color-headlines-font);
+  letter-spacing: 0.03em;
+}
+
+.our-team-bg {
+  background-color: var(--brand-color-ourteam-bg);
+}
+
 .page-filters button {
   font-family: "Roboto";
   font-style: normal;
@@ -104,10 +121,33 @@ body {
   --brand-color-description-font: #757575;
   --brand-color-img-background: #ffffff;
   --brand-color-active: #2196f3;
+  --brand-color-ourteam-bg: #f5f4fa;
 }
 
-.main-section-one {
-  background-color: var(--brand-color-heder-footer);
+.team-card > li {
+  background-color: var(--brand-color-img-background);
+  width: 270px;
+  height: 368px;
+}
+
+.team-card h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--brand-color-headlines-font);
+}
+
+.team-card p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--brand-color-description-font);
 }
 
 .top-bar-studio {
@@ -141,6 +181,15 @@ body {
 
 .top-bar-phone:hover {
   color: var(--brand-color-active);
+}
+
+.what-we-do {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--brand-color-headlines-font);
 }
 
 .web {
