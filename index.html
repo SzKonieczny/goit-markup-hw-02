@@ -18,12 +18,18 @@
   <body>
     <!--top bar-->
     <header>
-      <a href="#" class="logo"><span class="web">Web</span>Studio</a>
-      <nav class="navigation-menu a">
+      <a href="./index.html" class="logo-text"
+        ><span class="web">Web</span>Studio</a
+      >
+      <nav>
         <ul>
-          <li><a href="#">Agencja</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="#">Kontakt</a></li>
+          <li><a href="#" class="navigation-menu-link-agency">Agencja</a></li>
+          <li>
+            <a href="./portfolio.html" class="navigation-menu-link-portfolio"
+              >Portfolio</a
+            >
+          </li>
+          <li><a href="#" class="navigation-menu-link-contact">Kontakt</a></li>
         </ul>
       </nav>
       <a href="mailto:info@devstudio.com" class="top-bar-email"
@@ -34,42 +40,44 @@
     <!--main section-->
     <main>
       <!--Heder-->
-      <section class="main-section-one">
+      <section class="main-section-one-bg">
         <div>
-          <h1 class="headline-h1">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button type="button" class="order-button order-button:active">
-            <span class="order-service">Zamów usługe</span>
+          <h1 class="headline-text">
+            EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
+          </h1>
+          <button type="button" class="order-button order-service">
+            Zamów usługe
           </button>
         </div>
       </section>
 
       <!--Nasze atuty-->
       <section>
-        <ul class="our-advantages h3 our-advantages p">
-          <li>
-            <h3>LOREM IPSUM</h3>
-            <p>
+        <ul>
+          <li class="our-advantages-list">
+            <h3 class="our-advantages-headline-text">LOREM IPSUM</h3>
+            <p class="our-advantages-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
-            <h3>LOREM IPSUM</h3>
-            <p>
+          <li class="our-advantages-list">
+            <h3 class="our-advantages-headline-text">LOREM IPSUM</h3>
+            <p class="our-advantages-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
-            <h3>LOREM IPSUM</h3>
-            <p>
+          <li class="our-advantages-list">
+            <h3 class="our-advantages-headline-text">LOREM IPSUM</h3>
+            <p class="our-advantages-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
-            <h3>LOREM IPSUM</h3>
-            <p>
+          <li class="our-advantages-list">
+            <h3 class="our-advantages-headline-text">LOREM IPSUM</h3>
+            <p class="our-advantages-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
@@ -80,7 +88,7 @@
       <!--Czym sie zajmujemy-->
       <section>
         <h2 class="what-we-do">Czym sie zajmujemy</h2>
-        <ul class="wha-we-do-list">
+        <ul class="what-we-do-list">
           <li>
             <img
               src="./images/what_we_do/what_we_do_img1.jpg"
@@ -156,9 +164,11 @@
       </section>
     </main>
     <!--footer sectio-->
-    <footer>
-      <a href="#">WebStudio</a>
-      <address>
+    <footer class="footer-bg">
+      <a href="./index.html" class="logo-footer-index"
+        ><span class="web">Web</span><span class="studio">Studio</span></a
+      >
+      <address class="address-index">
         m. Warszawa, Aleje Jerozolimskie 21
         <a href="mailto:info@example.com">info@example.com</a>
         <a href="tel:+48111111111">+48 111 111 111</a>
