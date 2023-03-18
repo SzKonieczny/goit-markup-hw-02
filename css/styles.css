@@ -37,7 +37,7 @@ body {
   text-decoration: none;
 }
 
-.logo-footer-index {
+.index-footer-logo {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -229,36 +229,6 @@ body {
   --brand-color-img-background: #ffffff;
   --brand-color-active: #2196f3;
   --brand-color-ourteam-bg: #f5f4fa;
-}
-
-.team-card {
-  background-color: var(--brand-color-img-background);
-  width: 270px;
-  height: 368px;
-  list-style: none;
-}
-
-.team-card h5 {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--brand-color-headlines-font);
-}
-
-.team-card p {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--brand-color-description-font);
-}
-
-.top-bar-studio {
 }
 
 .top-bar-email {
