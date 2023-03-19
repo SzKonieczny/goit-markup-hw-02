@@ -207,6 +207,11 @@ body {
   color: var(--brand-color-logo-studio);
 }
 
+.logo-web {
+  text-decoration: none;
+  color: var(--brand-color-logo-web);
+}
+
 .main-section-one-bg {
   background-color: var(--brand-color-heder-footer);
 }
@@ -463,9 +468,4 @@ body {
 
 .what-we-do-list {
   list-style: none;
-}
-
-.web {
-  text-decoration: none;
-  color: var(--brand-color-logo-web);
 }
