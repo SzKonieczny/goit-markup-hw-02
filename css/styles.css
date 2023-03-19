@@ -1,19 +1,25 @@
 :root {
+  --brand-color-active: #2196f3;
+  --brand-color-body-backround: #ffffff;
+  --brand-color-body-text: #212121;
+  --brand-color-description-font: #757575;
+  --brand-color-h1-text: #ffffff;
   --brand-color-heder-footer: #2f303a;
   --brand-color-headlines-font: #212121;
-  --brand-color-description-font: #757575;
   --brand-color-img-background: #ffffff;
-  --brand-color-active: #2196f3;
+  --brand-color-logo-studio: #ffffff;
+  --brand-color-logo-web: #2196f3;
+  --brand-color-navigation-menu-text: #212121;
+  --brand-color-order-service-text: #ffffff;
+  --brand-color-order-button-background: #2196f3;
   --brand-color-ourteam-bg: #f5f4fa;
   --brand-color-text-body: #212121;
-  --brand-color-logo-web: #2196f3;
-  --brand-color-logo-studio: #ffffff;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #ffffff;
-  color: var(--brand-color-text-body);
+  background-color: var(--brand-color-body-backround);
+  color: var(--brand-color-body-text);
 }
 
 .filter-button-list {
@@ -154,7 +160,7 @@ body {
   line-height: 1.4;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--brand-color-h1-text);
 }
 
 .index-footer-address-street-name {
@@ -225,26 +231,10 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: #212121;
+  color: var(--brand-color-navigation-menu-text);
 }
 
 .navigation-menu-link-agency:is(:hover, :focus, :active) {
-  color: var(--brand-color-active);
-}
-
-.navigation-menu-link-portfolio {
-  width: 58px;
-  height: 16px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: #212121;
-}
-
-.navigation-menu-link-portfolio:is(:hover, :focus, :active) {
   color: var(--brand-color-active);
 }
 
@@ -257,10 +247,26 @@ body {
   line-height: 1.2px;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: #212121;
+  color: var(--brand-color-navigation-menu-text);
 }
 
 .navigation-menu-link-contact:is(:hover, :focus, :active) {
+  color: var(--brand-color-active);
+}
+
+.navigation-menu-link-portfolio {
+  width: 58px;
+  height: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--brand-color-navigation-menu-text);
+}
+
+.navigation-menu-link-portfolio:is(:hover, :focus, :active) {
   color: var(--brand-color-active);
 }
 
@@ -294,7 +300,7 @@ body {
 .order-button {
   width: 200px;
   height: 50px;
-  background-color: #2196f3;
+  background-color: var(--brand-color-order-button-background);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
@@ -310,7 +316,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--brand-color-order-service-text);
 }
 
 .our-team-bg {
@@ -374,14 +380,12 @@ body {
   line-height: 1.7;
   /* or 171% */
   letter-spacing: 0.03em;
-  text-decoration-line: underline;
+  text-decoration-line: none;
   color: rgba(255, 255, 255, 0.6);
 }
 
 .portfolio-footer-email-link:is(:hover, :focus, :active) {
-  background-color: var(--brand-color-active);
   color: var(--brand-color-active);
-  opacity: 0.6;
 }
 
 .portfolio-footer-phone-link {
@@ -393,6 +397,10 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.portfolio-footer-phone-link:is(:hover, :focus, :active) {
+  color: var(--brand-color-active);
 }
 
 .project-containers-bg {
